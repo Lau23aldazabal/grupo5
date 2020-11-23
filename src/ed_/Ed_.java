@@ -27,7 +27,7 @@ public class Ed_ {
            System.out.println("4: Salir");
            op=teclado.nextInt();
            switch(op){
-               case 1 //Laura:
+               case 1: //Laura:
                 System.out.println("Introduce el primer numero: ");
                 int a=teclado.nextInt();
                 System.out.println("Introduce el segundo numero: ");
@@ -38,7 +38,7 @@ public class Ed_ {
                case 2:  //Sara;
                break;
                case 3: //Carlos;
-                    Sytem.out.println("Escribe el numero ha elevar");
+                    System.out.println("Escribe el numero ha elevar");
                     int num = teclado.nextInt();
                     System.out.println("A que quieres elevar el " + num);
                     int aux = teclado.nextInt();
