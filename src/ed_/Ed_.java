@@ -24,7 +24,7 @@ public class Ed_ {
            System.out.println("1: La suma de dos numeros introducidor por teclado.");
            System.out.println("2: ");
            System.out.println("3: Eleva él número a un número.");
-           System.out.println("4: Numeros primos.");
+           System.out.println("4: Numero par o impar.");
            System.out.println("5: Salir");
            op=teclado.nextInt();
            switch(op){
