@@ -24,7 +24,8 @@ public class Ed_ {
            System.out.println("1: La suma de dos numeros introducidor por teclado.");
            System.out.println("2: ");
            System.out.println("3: Eleva él número a un número.");
-           System.out.println("4: Salir");
+           System.out.println("4: Numeros primos.");
+           System.out.println("5: Salir");
            op=teclado.nextInt();
            switch(op){
                case 1: //Laura:
@@ -44,7 +45,15 @@ public class Ed_ {
                     int aux = teclado.nextInt();
                     System.out.println("El cuadrado de " + num + " es: " + Math.pow(num, aux));
                break;
-               case 4:
+               case 4: //Laura:
+                     System.out.println("Escribe el numero, para saber si es par o impar: ");
+                    int n = teclado.nextInt();
+                     if (n%2==0){
+                         System.out.println("El numero es par");
+                     }else{
+                          System.out.println("El numero es impar");
+                     }
+               case 5:
                System.out.println("Has salido con exito.");
                break;
                default:
@@ -52,7 +61,7 @@ public class Ed_ {
                break;
                
            }
-       }while(op!=4);
+       }while(op!=5);
     }
     
 }
