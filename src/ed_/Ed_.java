@@ -18,7 +18,7 @@ public class Ed_ {
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int op;
+        int op,n;
         do {
             System.out.println("Introduce una opcion: ");
             System.out.println("1: La suma de dos numeros introducidor por teclado.");
@@ -41,14 +41,14 @@ public class Ed_ {
                     break;
                 case 3: //Carlos:
                     System.out.println("Escribe el numero ha elevar");
-                    int num = teclado.nextInt();
-                    System.out.println("A que quieres elevar el " + num);
+                    n = teclado.nextInt();
+                    System.out.println("A que quieres elevar el " + n);
                     int aux = teclado.nextInt();
-                    System.out.println("El cuadrado de " + num + " es: " + Math.pow(num, aux));
+                    System.out.println("El cuadrado de " + n + " es: " + Math.pow(n, aux));
                     break;
                 case 4: //Laura:
                     System.out.println("Escribe el numero, para saber si es par o impar: ");
-                    int n = teclado.nextInt();
+                    n = teclado.nextInt();
                     if (n % 2 == 0) {
                         System.out.println("El numero es par");
                     } else {
@@ -57,8 +57,8 @@ public class Ed_ {
                     break;
                 case 5: //Carlos:
                     System.out.println("Escribe el numero, para saber su raíz cuadrada:");
-                    num = teclado.nextInt();
-                    System.out.println("√"+num+" = "+Math.sqrt(num));
+                    n = teclado.nextInt();
+                    System.out.println("√"+n+" = "+Math.sqrt(n));
                     break;
                 case 6:
                     System.out.println("Has salido con exito.");
